@@ -31,7 +31,7 @@ def test_fewer_than_three_characters():
 
 def test_entirely_palindromic_string():
     result = sub_pal_per_space("madam")
-    expected = [(0, 4, 5)]
+    expected = [(0, 4)]
     assert result == expected, f"Expected {expected}, got {result}"
 
 # 3. Format Considerations
